@@ -50,7 +50,7 @@ jobs:
           submodules: true
 
       - name: Set up Python ${{ env.min-python-version }}
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: ${{ env.min-python-version }}
 
